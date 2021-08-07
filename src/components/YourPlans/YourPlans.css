@@ -1,0 +1,24 @@
+.YourPlans {
+    text-align: left;
+}
+.Textcolour {
+    color:#111f3c
+}
+ul {
+    list-style: none;
+  }
+  
+  .YourPlans ul li:before {
+    content: '✓';
+  }
+
+li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+    color: #111f3c;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    background-color: #111f3c;
+    border-radius: 25px;
+}
