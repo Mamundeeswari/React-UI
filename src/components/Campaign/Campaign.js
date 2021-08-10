@@ -29,7 +29,6 @@ const Campaign = () => (
         </div>
       </div>
     </div>
-
   </div>
 );
 
