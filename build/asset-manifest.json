@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-UI/static/css/main.a2d52c76.chunk.css",
+    "main.js": "/React-UI/static/js/main.692a31a0.chunk.js",
+    "main.js.map": "/React-UI/static/js/main.692a31a0.chunk.js.map",
+    "runtime-main.js": "/React-UI/static/js/runtime-main.52cf29a3.js",
+    "runtime-main.js.map": "/React-UI/static/js/runtime-main.52cf29a3.js.map",
+    "static/css/2.983f79de.chunk.css": "/React-UI/static/css/2.983f79de.chunk.css",
+    "static/js/2.59fa18ac.chunk.js": "/React-UI/static/js/2.59fa18ac.chunk.js",
+    "static/js/2.59fa18ac.chunk.js.map": "/React-UI/static/js/2.59fa18ac.chunk.js.map",
+    "static/js/3.3d024734.chunk.js": "/React-UI/static/js/3.3d024734.chunk.js",
+    "static/js/3.3d024734.chunk.js.map": "/React-UI/static/js/3.3d024734.chunk.js.map",
+    "index.html": "/React-UI/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/React-UI/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.a2d52c76.chunk.css.map": "/React-UI/static/css/main.a2d52c76.chunk.css.map",
+    "static/js/2.59fa18ac.chunk.js.LICENSE.txt": "/React-UI/static/js/2.59fa18ac.chunk.js.LICENSE.txt",
+    "static/media/Newson.io_logo_rgb_neg.a3e59373.png": "/React-UI/static/media/Newson.io_logo_rgb_neg.a3e59373.png",
+    "static/media/jumptronlogo.d981e1b2.png": "/React-UI/static/media/jumptronlogo.d981e1b2.png",
+    "static/media/logo.6ce24c58.svg": "/React-UI/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52cf29a3.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.59fa18ac.chunk.js",
+    "static/css/main.a2d52c76.chunk.css",
+    "static/js/main.692a31a0.chunk.js"
+  ]
+}
