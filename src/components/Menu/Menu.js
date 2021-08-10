@@ -10,10 +10,10 @@ const Menu = () => (
   </button> 
   <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
     <ul className="navbar-nav">
-      <li className="nav-item">
+      <li className="nav-item active">
         <a className="nav-link" href="#">Campaigns</a>
       </li>
-      <li className="nav-item active">
+      <li className="nav-item ">
         <a className="nav-link" href="#">Your plan</a>
       </li>
       <li className="nav-item">
