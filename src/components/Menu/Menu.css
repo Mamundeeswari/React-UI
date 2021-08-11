@@ -20,6 +20,10 @@ nav .navbar-nav li a{
     height: 2px;
     background-color: #111f3c;
 }
-      
+span {
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
 
 
