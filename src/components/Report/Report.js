@@ -4,7 +4,7 @@ import './Report.css';
 import ReportDetails from '../../components/ReportDetails/ReportDetails'
 
 const Report = () => (
-  <div className="Report RowWidth" data-testid="Report">
+  <div className="Report" data-testid="Report">
     <div class="container m-5 p-2">
       <div class="row">
           <div class="col-6 h4 Textcolour border-bottom border-grey">

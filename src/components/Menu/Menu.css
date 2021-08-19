@@ -3,7 +3,7 @@
 .Textcolour {
     color:#111f3c
 }
-nav .navbar-nav li a{
+.navbar-nav .nav-pills .nav-item a{
     color: #111f3c !important;
 }
 

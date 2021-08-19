@@ -1,36 +1,49 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Menu.css';
+import { Link } from 'react-router-dom';
+import { Nav, NavDropdown, Navbar, Container, Alert } from "react-bootstrap";
 import Menuitems from '../../asset/static/menu.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHamburger } from '@fortawesome/free-solid-svg-icons'
 const Menu = () => (
-  <div className="Menu" data-testid="Menu">
-    <nav className="navbar navbar-dark navbar-expand-lg  border-bottom border-grey border-top ">
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"><FontAwesomeIcon icon={faHamburger} /></span>
-  </button> 
-  <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-    <ul className="navbar-nav">
-      <li className="nav-item">
-        <a className="nav-link" href="#">Campaigns</a>
-      </li>
-      <li className="nav-item ">
-        <a className="nav-link" href="#">Your plan</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link active" href="#">Reports</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Invoice</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">My account</a>
-      </li>
-    </ul>
+  <React.Fragment>
+    <div className="container Textcolour">
+  <Navbar collapseOnSelect expand="lg">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav activeKey={window.location.pathname} variant="pills">
+              <Nav.Item href="/">
+                  <Nav.Link as={Link} to="/" eventKey="/Campaign" title="Campaign">
+                      Campaign
+              </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                  <Nav.Link as={Link} to="/YourPlans" title="Your Plan">
+                      YourPlans
+              </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                  <Nav.Link as={Link} to="/Reports"  title="Reports">
+                      Report
+              </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                  <Nav.Link as={Link} to="/Invoice" title="Invoice">
+                      Invoices
+              </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                  <Nav.Link as={Link} to="/MyAccount" title="My Account">
+                      MyAccount
+              </Nav.Link>
+              </Nav.Item>
+              
+          </Nav>
+      </Navbar.Collapse>
+  </Navbar>
   </div>
-</nav>
-  </div>
+</React.Fragment>
 );
 
 Menu.propTypes = {};
